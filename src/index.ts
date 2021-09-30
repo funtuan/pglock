@@ -35,7 +35,6 @@ class AwaitLock {
   }
 
   unlock(key: string) {
-    console.log('unlock', this.acquiredList)
     if (!this.acquiredList[key]) {
       return false
     }
