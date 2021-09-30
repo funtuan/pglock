@@ -1,0 +1,20 @@
+{
+  "name": "pglock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "funtuan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "advisory-lock": "^1.1.1"
+  }
+}
