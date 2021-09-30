@@ -1,5 +1,6 @@
 # pglock
 
+基於 PostgreSQL 互斥鎖
 依賴於 [advisory-lock](https://github.com/binded/advisory-lock/blob/master/README.md)
 
 [![npm package](https://nodei.co/npm/pglock.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/pglock/)
